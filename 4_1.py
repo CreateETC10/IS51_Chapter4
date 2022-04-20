@@ -33,7 +33,7 @@ for name in names:
     my_name = get_firstname(name)
     print("Hello, my name is " + my_name + ".")
     if my_name == "Tom":
-        print(name+" plays football")
+        print(my_name+" plays football")
     elif my_name == "Koby":
         print(my_name+" plays basketball")
     else:
